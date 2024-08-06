@@ -51,7 +51,7 @@ function indexToReaction(index) {
         15: 'Question',
         16: 'R',
         17: 'S',
-        18: 'T',
+        18: 'Thumbs Up',
         19: 'Remove',
         20: 'V',
         21: 'Yes',
@@ -69,6 +69,7 @@ function indexToReaction(index) {
         'Yes': 'yes.png',
         'No': 'no.png',
         'Remove': '',
+        'Thumbs Up': '1531011081thumbs-up-emoji.png',
     }
 
     const reaction = indexDict[index];
